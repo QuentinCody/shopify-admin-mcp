@@ -82,7 +82,7 @@ async def shopify_execute_graphql(query: str, variables: Dict[str, Any] = None) 
     """
     Use this tool to query Shopify store data or perform store management operations through the Shopify Admin API.
     Perfect for retrieving product information, managing inventory, processing orders, or updating store content.
-    **Before using this tool, make sure run an introspection query to get the schema of the object types and fields.**
+    **Before making a query or mutation, make sure run an introspection query to get the schema of the object types and fields.**
     This tool executes arbitrary GraphQL queries/mutations with the Shopify Admin API, providing access to all 
     available operations permitted by your access token's scopes.
     

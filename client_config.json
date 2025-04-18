@@ -1,0 +1,11 @@
+{
+  "mcp": {
+    "servers": {
+      "shopify": {
+        "command": ["python", "path/to/shopify_mcp_server.py"],
+        "tools": ["shopify_execute_graphql"],
+        "description": "Access to Shopify's Admin API for managing products, orders, and other store operations."
+      }
+    }
+  }
+} 
